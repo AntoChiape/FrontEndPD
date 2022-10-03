@@ -2,22 +2,18 @@ body {background-color: rgb(29, 24, 24);
       color: beige;
       border:1px solid black;
       font-size: 16.5px;
-
+      font-family: sans-serif;
       }
 
 h1 {color: white;
-    font-family: sans-serif;
+    font-family: monospace;
     text-align: center;
 }
 
-#ingredientes {color: red;}
-
-.blanco {color: white;
-          background-color: black;
-          }
+.ingredientes {color: #FFF176;
+}
 
 .justify { text-align: justify;
-
 }
 
 p { line-height: 1.6rem;
@@ -25,15 +21,90 @@ p { line-height: 1.6rem;
 }
 
 .title { text-decoration: underline;
-
 }
 
-
-.imaget { width: auto;
-          height: 50px;
+.icon-phone {
+    font-size: 40px;
+    color: beige;
 }
 
-        {   display:block;
-            margin-left: auto;
-            margin-right: auto;
-          }
+#naveg ul li{
+  list-style: none;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  }
+
+#naveg ul li:hover{
+  background-color:#455A64;
+      color: black;
+}
+
+#naveg {
+  background-color: #212121
+}
+
+/*a:link { background-color: blueviolet;
+    color: white;
+}
+a:visited { background-color: blue;
+    color: white;
+}
+a:hover { background-color:#455A64;
+    color: black;
+}*/
+
+.mark:hover{
+  background-color:#455A64;
+   color: black;
+}
+
+.mark {
+  color: beige;
+}
+
+a { font-style: italic;
+    font-weight: bold;
+}
+
+.icon-whatsapp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+}
+
+.icon-whatsapp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+}
+
+.icon-up {
+  font-size: 40px;
+  color: grey;
+}
+
+.icon-facebook {
+  color: blue;
+  font-size: 40px;
+}
+
+.icon-instagram {
+  color: white;
+  font-size: 40px;
+}
+
+.icon-back {
+  color: beige;
+  font-size: 40px;
+}
