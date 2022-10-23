@@ -1,9 +1,23 @@
 body {background-color: rgb(29, 24, 24);
       color: beige;
-      border:1px solid black;
       font-size: 16.5px;
       font-family: sans-serif;
       }
+
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  border: 1px solid grey
+}
+
+.icons {
+  border: 1px solid grey;
+}
 
 h1 {color: white;
     font-family: monospace;
@@ -13,10 +27,10 @@ h1 {color: white;
 .ingredientes {color: #FFF176;
 }
 
-.justify { text-align: justify;
-}
+/*.justify { text-align: justify;
+}*/
 
-p { line-height: 1.6rem;
+p { line-height: 1.2rem;
 
 }
 
@@ -44,16 +58,6 @@ p { line-height: 1.6rem;
   background-color: #212121
 }
 
-/*a:link { background-color: blueviolet;
-    color: white;
-}
-a:visited { background-color: blue;
-    color: white;
-}
-a:hover { background-color:#455A64;
-    color: black;
-}*/
-
 .mark:hover{
   background-color:#455A64;
    color: black;
@@ -66,7 +70,7 @@ a:hover { background-color:#455A64;
 a { font-style: italic;
     font-weight: bold;
 }
-
+/* ICONO DE WHATSAPP A LA DERECHA, FLOTANTE -
 .icon-whatsapp {
   position: fixed;
   width: 55px;
@@ -87,7 +91,7 @@ a { font-style: italic;
   text-decoration: none;
   color: #0df053;
   background: #fff;
-}
+}*/
 
 .icon-up {
   font-size: 40px;
@@ -104,7 +108,61 @@ a { font-style: italic;
   font-size: 40px;
 }
 
+.icon-whatsapp {
+  color: #2ECC71;
+  font-size: 40px;
+}
+
+.icon-youtube {
+  color:red;
+  font-size: 40px;
+}
+
 .icon-back {
   color: beige;
   font-size: 40px;
+}
+
+aside {
+    width: 30%;
+  }
+
+section {
+  width: 70%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+}
+
+.mapa {
+  width: 25%;
+  }
+
+.foot {
+  width: 25%;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.copy {
+  width: 25%;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
