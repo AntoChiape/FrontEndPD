@@ -10,6 +10,7 @@
   src: url("../fuentes/Esta.ttf") format("truetype");
 }
 
+
 body {background-color: rgb(29, 24, 24);
       color: beige;
       font-size: 1rem;
@@ -70,18 +71,19 @@ h3 {
   text-decoration: none;
   font-family: 'Sacramento', cursive;
   font-size: 1.5rem;
+  margin-left: 9rem;
   }
 
 #naveg ul li:hover{
   background-color:#455A64;
-      color: black;
+  color: black;
 }
 
 #naveg {
   background-color: #212121
-}
+  }
 
-.mark:hover{
+.mark:hover{ /*Este es el "click para mas info" */
   background-color:#455A64;
    color: black;
 }
@@ -155,6 +157,8 @@ aside {
 
 section {
   width: 70%;
+  padding-left: 10px;
+  padding-right: 15px;
 }
 
 main {
@@ -180,18 +184,48 @@ footer{
   border: 1px solid grey;
   background-color: #17202A;
   display: flex;
-  align-items: center;
+  align-items: center; /*Centra verticalmente*/
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .copyr {
   width: 25%;
   height: 75%;
   border: 1px solid grey;
-  display: flex;
-  align-items: center;
+  /*display: flex;
+  align-items: center;*/
 }
 
 li {
   font-family: 'esta';
+}
+
+
+
+@media (max-width: 767px) {
+  body {
+    background-color: black;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: green;
+  }
+
+  .heart {
+      display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .heart {
+      display: none;
+}
+
+  .chef {
+      display: none;
+  }
 }
