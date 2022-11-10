@@ -83,13 +83,13 @@ h3 {
   background-color: #212121
   }
 
-.mark:hover{ /*Este es el "click para mas info" */
+/*.mark:hover{ /*Este es el "click para mas info"
   background-color:#455A64;
-   color: black;
+  color: black;
 }
 
 .mark {
-  color: beige;
+  /*color: beige;*/
 }
 
 a { font-style: italic;
@@ -193,8 +193,8 @@ footer{
   width: 25%;
   height: 75%;
   border: 1px solid grey;
-  /*display: flex;
-  align-items: center;*/
+  display: flex;
+  align-items: center;
 }
 
 li {
@@ -207,6 +207,25 @@ li {
   body {
     background-color: black;
   }
+
+  main {
+     display: block;
+  }
+
+  aside {
+    margin-left: 15px;
+    width: 90%;
+  }
+}
+
+.container {
+  width: ;
+  height: ;
+}
+
+.card-img-top {
+  width: 16rem;
+  height: 10rem;
 }
 
 
